@@ -39,7 +39,8 @@
   border: transparent;
 }
 #results {
-  max-height: 340px;
+  max-height: 400px;
+  min-width: 530px;
   height: auto;
   width: auto;
   border-radius: 5px;
@@ -50,14 +51,17 @@
   margin-top: -50px;
   min-height: 100px;
   overflow-y: scroll;
+
 }
 #articleItens {
   background-color: rgb(84, 149, 235);
   border-radius: 5px;
   border: solid 0, 5px;
   min-height: 120px;
+  min-width: 500px;
   height: auto;
   width: auto;
+ 
 }
 #iconPerson {
   width: 25px;
@@ -98,8 +102,12 @@
 h1 {
   position: relative;
   color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ::-webkit-scrollbar {
   width: 0px; /* Remove scrollbar space */
   background: transparent; /* Optional: just make scrollbar invisible */
 }
+ 
